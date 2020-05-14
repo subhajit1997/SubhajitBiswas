@@ -1,0 +1,268 @@
+body{
+	line-height: 1.4;
+	font: 400 15px 'Roboto',sans-serif;
+	letter-spacing: 0.5px;
+	
+}
+a{
+	outline: none;
+}
+.bg-header{
+	background: url(img/background.jpg) no-repeat ;
+	background-size: cover;
+	min-height: 630px;
+	position: relative;
+	background-position: center;
+}
+.header-bg-grey{
+	background-color:rgba(0,0,0,0.2); 
+	min-height: 600px;
+
+}
+.container{
+	padding: 0;
+}
+.navbar{
+	padding: 3px 16px;
+
+}
+.navbar .navbar-nav .active{
+	font-size: 18px;
+	font-weight: 600;
+}
+.navbar-nav>li>a{
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFF;
+	outline: none;
+}
+.active{
+	opacity: 1;
+}
+.navbar-nav .nav-item .nav-link {
+	transition: 0.3s ease;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	transition: 0.3s ease;
+	font-size: 23px;
+	
+}
+.navbar-dark .navbar-toggler :hover,.navbar-dark .navbar-toggler:active{
+	background-color: rgba(255,255,255,0.2);
+	transition: 0.3s ease;
+
+}
+button:focus{
+	outline: none;
+	background-color: rgba(255,255,255,0.1);
+}
+
+
+
+
+
+
+
+.contentbody{
+	min-height:450px;
+	justify-content: center;
+	align-items: center;
+	transform-style: preserve-3d;
+	position: relative;
+	font-family: arial;
+	background-color: rgba(10,30,200,0.8);
+	background-size: cover;
+}
+.contentbody .container{
+
+	border-radius: 30px;
+	position: relative;
+	padding: 20px;
+	transition: 1.5s ease-in-out;
+	transform-style: preserve-3d;
+}
+.contentbody .side{
+	position: absolute;
+	text-align: center;
+	width: 90%;
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	border-radius: 20px;
+}
+
+.contentbody .content h1{
+	position: relative;
+	font-size: 20px;
+	font-family: arial;
+}
+
+.contentbody .back{
+	padding: 30px;
+
+}
+
+.contentbody .back h1{
+	margin :0;
+}
+.contentbody form label,form input{
+	display: block;
+
+}
+.contentbody form input, form textarea{
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid white;
+	padding: 5px;
+	width: 100%;
+	color: white;
+	outline: none;
+	display: inline-block;
+}
+.contentbody form label{
+	margin: 15px 0;
+	
+}
+.contentbody form input[type="submit"]{
+	display: block;
+	width: auto;
+	margin: 10px auto;
+	padding: 5px 10px;
+	border: 3px solid white;
+	color: white;
+	cursor: pointer;
+	
+}
+
+.footer-main-div{
+	width: 100%;
+	min-height: 200px;
+	height: auto;
+	margin: auto;
+	background: #272727;
+	padding: 20px 0px;
+}
+.footer-social-icons{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.footer-social-icons ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.footer-social-icons ul li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	border-radius: 100%;
+	background: #32CD32;
+}
+.footer-social-icons ul li a{
+	color: #272727;
+	font-size: 25px;
+	display: block;
+}
+.footer-social-icons ul li a i{
+	line-height: 50px;
+}
+.footer-menu-one{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 25px;
+}
+.footer-menu-one ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.footer-menu-one ul li{
+	display: inline-block;
+	margin: 0px 20px;
+}
+.footer-menu-one ul li a{
+	font-family: arial;
+	font-size: 15px;
+	font-weight: 200;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+.footer-main-div a{
+	text-decoration: none;
+	outline: none;
+}
+
+
+.footer-menu-two{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 10px;
+}
+.footer-menu-two ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.footer-menu-two ul li{
+	display: inline-block;
+	margin: 0px 20px;
+}
+.footer-menu-two ul li a{
+	font-family: arial;
+	font-size: 14px;
+	font-weight: 200;
+	color: #fff;
+	text-transform: uppercase;
+	
+}
+.footer-menu-one ul li a:hover{
+		color: #32CD32;
+	}
+.footer-menu-two ul li a:hover{
+		color: #32CD32;
+	}
+.footer-main-div a{
+	text-decoration: none;
+	outline: none;
+}
+.footer-bottom{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: #32CD32;
+	padding: 5px;
+}
+.footer-bottom p{
+	padding: 5px;
+	font-family: arial;
+	font-size: 10px;
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+	
+}
+.footer-bottom p a{
+	color: #fff;
+}
+.footer-bottom p a:hover{
+	color:#272727;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Location .container{
+	padding: 30px;
+}
