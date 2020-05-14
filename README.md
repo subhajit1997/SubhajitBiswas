@@ -1,3 +1,3 @@
 # SubhajitBiswas
 My portfolio website
-subhajit1997.github.io/SubhajitBiswas/
+https://subhajit1997.github.io/SubhajitBiswas/
